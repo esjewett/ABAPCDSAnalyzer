@@ -95,7 +95,5 @@ const errorListener = (err: Error) => {
   process.exitCode = 1;
 };
 
-// processFile('./examples/#mindset#i_error_log.ddls.asddls', errorListener);
-// processFile('./examples/#mindset#c_error_log.ddls.asddls', errorListener);
-// processFile('./examples/stockbal/abap-search-tools/zsat_p_databaseview.ddls.asddls', errorListener)
-processDir('../QM_VDM/src/', errorListener);
+// processDir('../QM_VDM/src/', errorListener);
+processDir('../MM_IM_VDM/src/', errorListener);
