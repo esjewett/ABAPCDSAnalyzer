@@ -1,0 +1,27 @@
+{
+  "name": "abapcdsanalyzer",
+  "version": "1.0.0",
+  "description": "An application for analyzing ABAP CDS",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc -p ./tsconfig.json; node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esjewett/ABAPCDSAnalyzer.git"
+  },
+  "author": "Ethan Jewett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esjewett/ABAPCDSAnalyzer/issues"
+  },
+  "homepage": "https://github.com/esjewett/ABAPCDSAnalyzer#readme",
+  "dependencies": {
+    "abapcdsgrammar": "0.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.2",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  }
+}
